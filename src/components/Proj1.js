@@ -138,7 +138,7 @@ const Proj1 = () => {
           nfts.</P></li>
         </li>
           </ul>
-          <a href="https://mekaverse.netlify.app" target="_blank">
+          <a href="https://github.com/Sumitmaithani/MekaVerse" target="_blank">
           <Btn>
           <Button>Visit website</Button>
           </Btn>

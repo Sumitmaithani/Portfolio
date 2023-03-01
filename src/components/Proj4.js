@@ -95,7 +95,7 @@ const Proj4 = () => {
         <P>
         This portfolio is created using framer-motion for cool transitions and animation. By using advanced css properties to make website design more professional.</P> 
           
-          <a href="https://sumitmaithani.netlify.app" target="_blank">
+          <a href="https://github.com/Sumitmaithani/Portfolio" target="_blank">
           <Btn>
           <Button>Visit website</Button>
           </Btn>

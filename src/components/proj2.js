@@ -143,7 +143,7 @@ const Proj2 = () => {
           </P></li> 
           <li><P>You can say "back" in search page and it back you in home screen.</P></li>
           </ul>
-        <a href="https://jarvis2point0.netlify.app" target="_blank">
+        <a href="https://github.com/Sumitmaithani/J.A.R.V.I.S" target="_blank">
           <Btn>
             <Button>Visit website</Button>
           </Btn>

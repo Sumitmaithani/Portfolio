@@ -103,7 +103,7 @@ const Proj3 = () => {
           <H>Details</H> 
           <P>Mango is a multipage website which made with advanced React best practices, Folder structuring, UI creation using MUI design, creating Charts using rechart and having a admin panel also.</P>
           
-          <a href="https://themango.netlify.app" target="_blank">
+          <a href="https://github.com/Sumitmaithani/Mango" target="_blank">
           <Btn>
           <Button>Visit website</Button>
           </Btn>

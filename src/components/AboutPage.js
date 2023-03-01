@@ -73,10 +73,9 @@ const AboutPage = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          I'm a front-end developer undergrad student currently doing my
-          engineering from HNBGU (central university) from Uttarakhand, India. I
-          love to create simple yet beautiful websites with great user
-          experience.
+          I'm a front-end developer 2nd year student currently doing my
+          engineering from HNBGU (central university) from Uttarakhand, India.
+          I have more than 8months+ of experience as an SDE intern in a Startup.
           <br /> <br />
           I'm interested in the whole frontend stack Like trying new things and
           building great projects.

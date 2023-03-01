@@ -9,19 +9,6 @@ import ParticleComponent from "../subComponents/ParticleComponent";
 import BigTitle from "../subComponents/BigTitle";
 
 
-
-import a from "../assets/skills/html.svg";
-import b from "../assets/skills/css.svg";
-import c from "../assets/skills/js.svg";
-import d from "../assets/skills/jquery.svg";
-import e from "../assets/skills/git.svg";
-import f from "../assets/skills/github.svg";
-import g from "../assets/skills/react.svg";
-import h from "../assets/skills/api.svg";
-import i from "../assets/skills/antd.svg";
-import j from "../assets/skills/scss.svg";
-import k from "../assets/skills/styled.svg";
-import l from "../assets/skills/bootstrap.svg";
 import m from "../assets/skills/vscode.svg";
 import n from "../assets/skills/codepen.svg";
 
@@ -114,26 +101,37 @@ const MySkillsPage = () => {
             <Develope width={40} height={40} /> Frontend Developer
           </Title>
           <Description>
-            I value a business or brand for which I'm creating 
-            websites with responsive and elegant JavaScript.
-            Looking for an opportunity to grow my frontend development
-            skills in an innovative environment.
+          I'm a front-end developer 2nd year student currently doing my
+          engineering from HNBGU (central university) from Uttarakhand, India.
+          I have more than 8months+ of experience as an SDE intern in a Startup.
           </Description>
           <Description>
             <strong>Skills</strong>
             <p>
-            <Img src={a} />
-            <Img src={b} />
-            <Img src={c} />
-            <Img src={d} />
-            <Img src={e} />
-            <Img src={f} />
-            <Img src={g} />
-            <Img src={h} />
-            <Img src={i} />
-            <Img src={j} />
-            <Img src={k} />
-            <Img src={l} />
+            <div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="javascript logo"  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
+  <img src="https://reactnative.dev/img/header_logo.svg" alt="reactnative" height="40" width="40" /> 
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" width="40" alt="redux logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" width="52" alt="nodejs logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" width="52" alt="mongodb logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" width="52" alt="express logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" width="52" alt="bootstrap logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" height="40" width="52" alt="tailwindcss logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg" height="40" width="52" alt="materialui logo"  />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="52"/>
+   <img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" height="40" width="52" alt="npm logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg" height="40" width="52" alt="heroku logo"  />
+  <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" height="40" width="40"/>
+  <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/>
+</div>
+
             </p>
           </Description>
           <Description>

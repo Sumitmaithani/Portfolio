@@ -56,8 +56,8 @@ const Main = styled.div`
     width: 40vh;
     left: 0;
     top: 7rem;
-    padding: 2rem ;
-  font-size: calc(0.6rem + 1.8vw);
+    padding: 2rem;
+    font-size: calc(0.6rem + 1.8vw);
   }
 `;
 
@@ -73,9 +73,9 @@ const AboutPage = () => {
           <img src={astronaut} alt="spaceman" />
         </Spaceman>
         <Main>
-          I'm a front-end developer 2nd year student currently doing my
-          engineering from HNBGU (central university) from Uttarakhand, India.
-          I have more than 8months+ of experience as an SDE intern in a Startup.
+          I'm a Web and App developer 3rd year student currently doing my
+          engineering from HNBGU (central university) from Uttarakhand, India. I
+          have more than 8months+ of experience as an SDE intern in a Startup.
           <br /> <br />
           I'm interested in the whole frontend stack Like trying new things and
           building great projects.

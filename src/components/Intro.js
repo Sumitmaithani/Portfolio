@@ -33,10 +33,7 @@ const Box = styled(motion.div)`
   z-index: 1;
 
   @media (max-width: 608px) {
-  
   }
-
-
 `;
 
 const SubBox = styled.div`
@@ -51,11 +48,11 @@ const SubBox = styled.div`
     transform: translate(-50%, 0%);
     width: 80%;
     height: auto;
-      border-radius: 50%;
+    border-radius: 50%;
 
     @media (max-width: 608px) {
       width: 170px;
-}
+    }
   }
 `;
 
@@ -71,10 +68,10 @@ const Text = styled.div`
 
   @media (max-width: 608px) {
     display: block;
-  font-size: calc(1em + 1.0vw);
-  margin-top: 0;
-  width: max-content!important;
-}
+    font-size: calc(1em + 1vw);
+    margin-top: 0;
+    width: max-content !important;
+  }
 
   & > *:last-child {
     color: ${(props) => `rbga(${props.theme.bodyRgba}, 0.6)`};
@@ -82,7 +79,6 @@ const Text = styled.div`
     font-weight: 300;
   }
 `;
-
 
 const Intro = () => {
   return (
@@ -94,15 +90,17 @@ const Intro = () => {
       <SubBox>
         <Text>
           <h1>Hi</h1>
-          <h3 style={{width:"max-content"}}>I'm Sumit <br /> Maithani.</h3>
-          <h6>I'm Frontend developer and Programmer.</h6>
+          <h3 style={{ width: "max-content" }}>
+            I'm Sumit <br /> Maithani.
+          </h3>
+          <h6>I'm Web and App Developer and Programmer.</h6>
         </Text>
       </SubBox>
       <SubBox>
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{duration: 1, delay: 2 }}
+          transition={{ duration: 1, delay: 2 }}
         >
           <img src={Me} className="pic" alt="Profile Pic" />
         </motion.div>

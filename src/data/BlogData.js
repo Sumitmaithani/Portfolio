@@ -1,6 +1,24 @@
+import fold from "../assets/work/fold.png";
+
 export const Blogs = [
   {
+    id: 0,
+    name: "Planitar is a team management app. It helps teams effectively manage tasks, assign work, and communication.",
+    tags: ["React Native", "Redux", "Node.js", "MongoDB", "Twilio"],
+    date: "28 Oct, 2023",
+    imgSrc:
+      "https://user-images.githubusercontent.com/86047367/279084762-f31b24d0-f213-4849-91d9-12e1d00d22fe.png",
+  },
+  {
     id: 1,
+    name: "HDOC stands for 'Hundred Days of Code'. It is a gamified learning experience that helps users learn about DSA.",
+    tags: ["React Native", "Figma", "lottie animations"],
+    date: "10 Dec, 2021",
+    imgSrc:
+      "https://user-images.githubusercontent.com/86047367/273393327-095e88c9-e663-4027-a503-1dcc9dc6ebfd.png",
+  },
+  {
+    id: 2,
     name: "InHouse is a platform that aims to solve the problem of collaborating on code and code-pairing remotely.",
     tags: ["MERN", "Redux", "codemirror", "Socket.IO", "JWT", "CI/CD"],
     date: "8 Jan, 2023",
@@ -8,12 +26,11 @@ export const Blogs = [
       "https://user-images.githubusercontent.com/86047367/211190221-2ea5ad86-a7c2-4ed2-8007-5793815b1cd5.png",
   },
   {
-    id: 2,
-    name: "HDOC stands for 'Hundred Days of Code'. It is a gamified learning experience that helps users learn about DSA.",
-    tags: ["React Native", "Figma", "lottie animations"],
-    date: "10 Dec, 2021",
-    imgSrc:
-      "https://user-images.githubusercontent.com/86047367/273393327-095e88c9-e663-4027-a503-1dcc9dc6ebfd.png",
+    id: 7,
+    name: "This is a landing page of Fold money.",
+    tags: ["next.js", "framer-motion"],
+    date: "1 November, 2023",
+    imgSrc: fold,
   },
   {
     id: 3,

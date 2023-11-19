@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+import Hdoc1 from "../assets/work/hdocwork.png";
+import Hdoc2 from "../assets/work/hdocwork2.png";
+
 const Container = styled.div`
   background-color: #1a1a1a;
   height: 100%;
@@ -17,9 +20,13 @@ const Center = styled.div`
   }
 `;
 
-const Div = styled.div`padding: 20px 40px;`;
+const Div = styled.div`
+  padding: 20px 40px;
+`;
 
-const H = styled.h1`padding: 20px 0;`;
+const H = styled.h1`
+  padding: 20px 0;
+`;
 
 const P = styled.p`
   letter-spacing: 0.1em;
@@ -33,7 +40,7 @@ const P = styled.p`
 `;
 
 const Img = styled.img`
-  width: 30%;
+  width: 80%;
   margin: auto;
   margin-top: 20px;
   @media (max-width: 608px) {
@@ -98,6 +105,15 @@ const Proj6 = () => {
             allowFullScreen
           />
         </Center>
+        <Center>
+          <Img src="https://user-images.githubusercontent.com/86047367/273393327-095e88c9-e663-4027-a503-1dcc9dc6ebfd.png" />
+        </Center>
+        <Center>
+          <Img src={Hdoc1} />
+        </Center>
+        <Center>
+          <Img src={Hdoc2} />
+        </Center>
 
         <H>Tech stack used</H>
         <P>React Native, Figma, lottie animations, Google Authentication</P>
@@ -111,18 +127,20 @@ const Proj6 = () => {
           With HDOC, you'll get a new topic to learn each day, complete with
           theory, important questions, and a quiz to test your knowledge. Our
           beautiful UI/UX makes learning a breeze, and our gamification elements
-          will keep you motivated and engaged throughout the 100-day journey.<br
-          />
+          will keep you motivated and engaged throughout the 100-day journey.
+          <br />
           Whether you're a beginner looking to build a strong foundation or an
           experienced developer looking to level up your skills, HDOC is the
           perfect app for you. Join our community of learners today and take the
-          first step towards mastering data structure and algorithm topics.<br />
-          Download HDOC now and start your Hundred Days of Code journey today!<br />
+          first step towards mastering data structure and algorithm topics.
+          <br />
+          Download HDOC now and start your Hundred Days of Code journey today!
+          <br />
         </P>
-       
+
         <a href="https://github.com/Sumitmaithani/HDOC" target="_blank">
           <Btn>
-            <Button>Visit website</Button>
+            <Button>Visit Link</Button>
           </Btn>
         </a>
       </Div>

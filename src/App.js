@@ -16,6 +16,8 @@ import Proj5 from "./components/Proj5";
 import Proj6 from "./components/Proj6";
 import Proj0 from "./components/Proj0";
 import Proj7 from "./components/Proj7";
+import CraftsPage from "./components/CraftsPage";
+import Onboardingwithframer from "./crafts/Onboardingwithframer";
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
             <Route exact path="/about" element={<AboutPage />} />
             <Route exact path="/work" element={<BlogPage />} />
             <Route exact path="/skills" element={<MySkillsPage />} />
+            <Route exact path="/crafts" element={<CraftsPage />} />
             <Route exact path="/work/0" element={<Proj0 />} />
             <Route exact path="/work/1" element={<Proj6 />} />
             <Route exact path="/work/2" element={<Proj5 />} />
@@ -37,6 +40,11 @@ function App() {
             <Route exact path="/work/5" element={<Proj2 />} />
             <Route exact path="/work/6" element={<Proj4 />} />
             <Route exact path="/work/7" element={<Proj7 />} />
+            <Route
+              exact
+              path="/crafts/onboardingwithframer"
+              element={<Onboardingwithframer />}
+            />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>

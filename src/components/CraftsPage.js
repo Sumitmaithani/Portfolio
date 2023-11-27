@@ -6,7 +6,9 @@ const Container = styled.div`
   margin: 3% 0 0 5%;
 `;
 
-const MegaContainer = styled.div``;
+const MegaContainer = styled.div`
+  display: block;
+`;
 
 const Head = styled.div`
   display: flex;
@@ -33,6 +35,7 @@ const H2 = styled.div`
 
 const CraftsContainer = styled.div`
   padding: 5% 0;
+  display: inline-grid;
 `;
 
 const Craft = styled(NavLink)`
@@ -41,6 +44,7 @@ const Craft = styled(NavLink)`
   font-family: poppins;
   font-weight: 400;
   color: #2e2020d4;
+  margin: 10px 0;
 
   &:hover {
     color: #ea5027;
@@ -58,6 +62,9 @@ const CraftsPage = () => {
         <CraftsContainer>
           <Craft to="/crafts/onboardingwithframer">
             onboarding screen using framer-motion
+          </Craft>
+          <Craft to="/crafts/duolingoanimations">
+            Duolingo scrolling animations
           </Craft>
         </CraftsContainer>
       </MegaContainer>

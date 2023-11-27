@@ -18,6 +18,7 @@ import Proj0 from "./components/Proj0";
 import Proj7 from "./components/Proj7";
 import CraftsPage from "./components/CraftsPage";
 import Onboardingwithframer from "./crafts/Onboardingwithframer";
+import Duolingoanimations from "./crafts/Duolingoanimations";
 
 function App() {
   return (
@@ -44,6 +45,11 @@ function App() {
               exact
               path="/crafts/onboardingwithframer"
               element={<Onboardingwithframer />}
+            />
+            <Route
+              exact
+              path="/crafts/duolingoanimations"
+              element={<Duolingoanimations />}
             />
           </Routes>
         </BrowserRouter>

@@ -61,11 +61,12 @@ const CraftsPage = () => {
       <MegaContainer>
         <CraftsContainer>
           <Craft to="/crafts/onboardingwithframer">
-            onboarding screen using framer-motion
+            onboarding screen with animations
           </Craft>
           <Craft to="/crafts/duolingoanimations">
             Duolingo scrolling animations
           </Craft>
+          <Craft to="/crafts/quizapp">Quiz app with awsm design</Craft>
         </CraftsContainer>
       </MegaContainer>
     </Container>

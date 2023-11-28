@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import screen from "../assets/crafts/craft1.gif";
+import screen from "../assets/crafts/craft3.gif";
 
 const Container = styled.div``;
 
@@ -28,15 +28,15 @@ const H1 = styled.div`
   text-align: center;
 `;
 
-const Onboardingwithframer = () => {
+const QuizApp = () => {
   return (
     <Container>
-      <H1>onboarding screen with animations</H1>
+      <H1>Quiz App with awsm design</H1>
       <ImgContainer>
-        <Image src={screen} alt="animation screen" />
+        <Image src={screen} alt="QuizApp screen" />
       </ImgContainer>
     </Container>
   );
 };
 
-export default Onboardingwithframer;
+export default QuizApp;

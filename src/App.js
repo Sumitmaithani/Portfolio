@@ -19,6 +19,7 @@ import Proj7 from "./components/Proj7";
 import CraftsPage from "./components/CraftsPage";
 import Onboardingwithframer from "./crafts/Onboardingwithframer";
 import Duolingoanimations from "./crafts/Duolingoanimations";
+import QuizApp from "./crafts/QuizApp";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
               path="/crafts/duolingoanimations"
               element={<Duolingoanimations />}
             />
+            <Route exact path="/crafts/quizapp" element={<QuizApp />} />
           </Routes>
         </BrowserRouter>
       </ThemeProvider>
